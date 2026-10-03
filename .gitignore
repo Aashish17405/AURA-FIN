@@ -1,0 +1,98 @@
+# ==============================================================================
+# Git Ignore Configuration - AURA-FIN Multi-Modal Stock Market Forecasting
+# ==============================================================================
+
+# --- Python Bytecode & Optimization ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.*.local
+*.env
+.streamlit/secrets.toml
+
+# --- Testing & Code Quality ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+coverage.xml
+nosetests.xml
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Node.js & React Frontend ---
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.oxc/
+.eslintcache
+
+# --- OS & System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# --- IDEs & Editors ---
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.sublime-workspace
+*.sublime-project
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Logs & Runtime Artifacts ---
+*.log
+logs/
+run/
+
+# --- Large Model Checkpoints & Temporary Dumps ---
+# Allow default trained baseline checkpoint
+*.pt.tmp
+*.ckpt
+*.h5
+*.bin
+*.onnx
+# Keep existing lightweight benchmark checkpoint
+!models/best_multimodal_dgt.pt

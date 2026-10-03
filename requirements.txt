@@ -1,0 +1,24 @@
+# Explainable Multi-Modal Stock Market Forecasting
+# Core Deep Learning & Graph
+torch>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+networkx>=3.0
+
+# Financial Data & Market Indicators
+yfinance>=0.2.35
+requests>=2.31.0
+
+# Natural Language & Retrieval-Augmented Generation
+transformers>=4.35.0
+sentence-transformers>=2.2.0
+
+# Visualization & Explainability
+matplotlib>=3.7.0
+seaborn>=0.12.0
+shap>=0.42.0
+
+# Web Dashboard & Demo
+streamlit>=1.30.0
